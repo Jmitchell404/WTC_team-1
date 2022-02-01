@@ -30,8 +30,4 @@ a in function that takes user_type and username as parameters
 
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     sign_up()
-=======
-    sign_up()
->>>>>>> 204cf7208ab93522f57146e7450b6db0bd5e2d16
