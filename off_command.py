@@ -1,3 +1,4 @@
-def off_command(user_input):
+def off_command():
     print("Powering off")
-    return False
+    #Delete json credentials and token
+    exit()
