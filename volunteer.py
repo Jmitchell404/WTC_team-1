@@ -1,3 +1,14 @@
+help_menu()
+off_command()
+error_message()
+login()
+view_calendar()
+make_a_booking()
+volunteer_booking()
+
+
+
+
 def volunteer_login():
     input("are you a volunteer or a student?")
     
