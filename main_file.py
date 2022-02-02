@@ -4,13 +4,10 @@ import time, os
 lets_go = True
 '''
 Skeleton Code for the mock code/demo
-- Bavu and Thando set up basic structure
-- Use code from josh and Ryland for config and calendar showing
-- 
+ - Bavu and Thando set up basic structure
+ - Use code from josh and Ryland for config and calendar showing
+ - Update config and calendar functions
 '''
-
-
-
 
 
 def start():
@@ -38,65 +35,9 @@ def start():
     print_statements.off_command()
 
 
-        
-
-
-
-
-
-    # os.remove()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    # off_command.off_command()
-
-
-    # username= input('Please enter your student email: ')
-    # if '@student.wethinkcode' in username:
-    #     print('Welcome')
-     
-
-    
-    # user_type = input(' Are you a user or volunteer?')
-    # if user_type ==   'volunteer':
-    #     print('Would you like to view the calendar? ')
-
-    # elif user_type == 'user':
-    #     print('Would you like to view the calendar? ')
-
-    # else:
-    #     print('error message') #Josh's code
-    #     return False
-
 '''
-error msg function
+Add error msg function(maybe)
 '''       
-
-
 
 '''
 The code that automates the login process then goes in here
