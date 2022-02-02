@@ -3,9 +3,9 @@ def sign_up():
     username= input('Please enter your student email: ')
     if '@student.wethinkcode' in username:
         print('Welcome')
-     
 
-    
+
+
     user_type = input(' Are you a user or volunteer?')
     if user_type ==   'volunteer':
         print('Would you like to view the calendar? ')
