@@ -1,33 +1,50 @@
-def sign_up():
-    print('Welcome to the code clinic')
-    username= input('Please enter your student email: ')
-    if '@student.wethinkcode' in username:
-        print('Welcome')
-     
+
+
+
+def student_sign_up_input():
+    #calender output function
+    student_input= input('Would you like to book a slot? \n\
+if not, enter "exit" to leave program \n\
+please enter y/n: ')
+    # return student_input
 
     
-    user_type = input(' Are you a user or volunteer?')
-    if user_type ==   'volunteer':
-        print('Would you like to view the calendar? ')
+def student_sign_up():
+   
+    if student_input == "y":
+        date = input('Enter date: ')
+        time = input('Enter time: ')
+        print(f'Your slot has been booked for {date} at {time}')
+        # break
+    elif student_input != "y" or student_input != "n":
+        student_sign_up_input()
+    elif student_input == "n":
+        exit()
+            
+def volunteer_sign_up():
+    
+    if student_input == "y":
+        date = input('Enter date: ')
+        time = input('Enter time: ')
+        print(f'Your volunteer slot has been assigned for {date} at {time}')
+        # break
+    elif student_input != "y" or student_input != "n":
+        student_sign_up_input()
+    elif student_input == "n":
+        exit()
+    ...       
 
-    elif user_type == 'user':
-        print('Would you like to view the calendar? ')
-
-    else:
-        print('error message') #Josh's code
-        return False
-
-'''
-error msg function
-'''       
 
 
 
-'''
-The code that automates the login process then goes in here
-a in function that takes user_type and username as parameters
-'''
+    
+    
+  
+
+
 
 
 if __name__ == "__main__":
-    sign_up()
+    student_input= student_sign_up_input() 
+    student_sign_up()
+   
