@@ -1,5 +1,4 @@
 from __future__ import print_function
-import tabulate
 import datetime
 import os.path
 
