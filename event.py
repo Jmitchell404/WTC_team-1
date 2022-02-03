@@ -10,7 +10,7 @@ service = build('calendar', 'v3', credentials=creds)
 
 def create_event():
     event = {
-    'summary': 'Google I/O 2015',
+    'summary': 'Google I/O 2022',
     'location': '17-85 Bromwell St, Woodstock, Cape Town, 7915',
     'description': 'A chance to hear more about Google\'s developer products.',
     'start': {
