@@ -1,4 +1,4 @@
-import quickstart,print_statements,token_removal,login
+import quickstart,welcome_messages,token_removal,login
 import time, os
 
 lets_go = True
@@ -12,12 +12,12 @@ Skeleton Code for the mock code/demo
 
 def start():    
 
-    print_statements.welcome_msg()
+    welcome_messages.welcome_msg()
     
     time.sleep(1)
     quickstart.main() #Runs the client login from google
 
-    print_statements.successful_login_msg()
+    welcome_messages.successful_login_msg()
 
     user_type = input('ARE YOU A STUDENT OR VOLUNTEER? ').lower()
     
@@ -30,7 +30,7 @@ def start():
     lets_go == False
 
     token_removal.token_delete() #removes token when done with programme
-    print_statements.off_command()
+    welcome_messages.off_command()
 
 
 '''

@@ -3,9 +3,9 @@ def welcome_msg():
    |   Hey Coder, Welcome to the code clinic booking system.           |\n\
    |   Please sign in with your email on the window that will pop up:  |\n\
    |-------------------------------------------------------------------|\n\
-    ')
+        ')
 
-    
+
 def successful_login_msg():
     print("\n\
     |----------------------------------------------------------|\n\

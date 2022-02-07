@@ -1,4 +1,4 @@
-import print_statements
+import welcome_messages
 
     
 def student_sign_up_student():
@@ -13,10 +13,10 @@ please enter Y/N: ')
             print(f'Your slot has been booked for {date} at {time}')
             break
         elif student_input == "n":
-            print_statements.off_command()
+            welcome_messages.off_command()
 
         else:
-            print_statements.error_msg()
+            welcome_messages.error_msg()
             break
     
             
@@ -32,8 +32,8 @@ please enter Y/N: ')
             print(f'Your slot has been booked for {date} at {time}')
             break
         elif student_input == "n":
-            print_statements.off_command()
+            welcome_messages.off_command()
 
         else:
-            print_statements.error_msg()
+            welcome_messages.error_msg()
             break
